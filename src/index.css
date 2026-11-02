@@ -1,0 +1,49 @@
+body { 
+  margin: 0; 
+}
+
+.site-header { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 16px 24px; 
+}
+.site-header nav { 
+  display: flex; 
+  gap: 16px; 
+}
+
+.hero, .section {
+  max-width: 900px; 
+  margin: 0 auto; 
+  padding: 48px 24px;
+}
+
+.skills, .tags { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 8px; 
+  list-style: none; 
+  padding: 0; 
+}
+.skills li, .tags li { 
+  padding: 4px 12px; 
+  border: 1px solid currentColor; 
+  border-radius: 999px; 
+}
+
+.cards { 
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
+  gap: 20px; 
+}
+.card { 
+  border: 1px solid #8884; 
+  border-radius: 12px; 
+  padding: 20px; 
+}
+
+.site-footer { 
+  text-align: center; 
+  padding: 32px 24px; 
+}
